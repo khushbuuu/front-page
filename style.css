@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ui,oi{
+    list-style-type:none;
+}
+.clear
+{
+    clear: both;
+}
+.container{
+    width: 1170px;
+    margin:0 auto;
+}
+
+/*========NAVBAR======*/
+.logo img{
+    padding-top: 20px;
+}
+.logo{
+    width: 300px;
+    float: left;
+}
+.menu{
+    width:870px ;
+    float: left;
+    text-align: right;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    padding: 0 20px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 120px;
+    text-transform: uppercase;
+    color: #444;
+    transition: all linear.3s;
+    font-weight:400 ;
+    font-style: normal;
+    font-size: 20px;
+    }
+.menu ul li a:hover{
+    color:blue;
+}
+banner-img{
+    background-image: url(images/pic.jpg);
+    background-size: cover;
+    background-position: center center;
+    top: 170px;
+    width: 70%;
+    height: auto;
+    position:fixed;
+    margin-left: 200px;
+}
+
+/*======about style====*/
+#about{
+    padding-top: 100px;
+    padding-bottom:50px;
+}
+.about-img{
+    width: 170px;
+    float: left;
+    margin-top: 120px;
+    margin-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    border: 3px solid black
+    
+}
+.about-text h2{
+    font-size: 32px;
+    float: left;
+    margin-top: -150px;
+    margin-left:500px;
+    margin-bottom: 0px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.about-text p{
+    font-size: 20px;
+    margin-top: -100px;
+    float: left;
+    margin-left: 500px;
+    color: #666;
+    font-weight: 400;
+    line-height: 24px;
+}
+.about-text a{
+    color: rgb(202, 202, 216);
+    background-color: rgb(20, 20, 17);
+    padding: 10px 10px;
+    font-family: 'Montserrat', sans-serif;
+    float: right;
+    margin-right: 570px;
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+/*=======Services======*/
+#service{
+    padding-bottom: 30px;
+    padding-bottom: 50px;
+}
+.head{
+    padding-bottom: 85px;
+}
+.head h2{
+    color: rgb(40, 33, 22);
+    margin-top: 0px;
+    float: left;
+    margin-right: 300px;
+    margin-bottom: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+}
+.service-item{
+    width: 350px;
+    padding: 37px;
+    box-sizing: border-box;
+    float: left;
+    border:2px solid #ddd;
+    text-align: center;
+}
+.service-item h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    color: #444;
+    text-transform: capitalize;
+    padding-top: 10px;
+}
+.service-item p {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 25px;
+    color: #666;
+    font-weight: 400;
+    padding-top: 10px;
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+.service-item a{
+    font-size: 10px;
+    text-transform: uppercase;
+    padding: 10px 25px;
+    background-color: rgb(203, 25, 25);
+    color: rgb(202, 202, 216);
+    font-family: 'Montserrat', sans-serif;
+    
+}
+/* 30px gap in between each service*/
+.mx-30{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+/*======Trainers======*/
+#trainer{
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+.trainter-profile{
+    width: 240px;
+    padding: 20px 0;
+    float: left;
+    box-sizing: border-box;
+    background-color: #f1f1f1;
+    text-align: center;
+    border-radius: 5px;
+}
+.trainter-profile h3{
+    color: #444;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    padding-top: 10px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.trainter-profile p{
+    text-transform: capitalize;
+    color: #666;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 5px;
+}
+.social{
+    padding-top: 15px;
+}
+.social i{
+    color: #fff;
+    background-color:rgb(226, 7, 7);
+    width: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+/*======Contact Us======*/
+#contact{
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.field{
+    width: 560px;
+    box-sizing: border-box;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 30px;
+}
+.field input{
+    width: 100%;
+    padding: 0px 15px;
+    height: 40px;
+    border: 1px solid #666;
+}
+.field input::placeholder{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #666;
+    font-weight: 400;
+}
+.textarea{
+    width: 1135px;
+}
+.textarea textarea{
+    width: 100%;
+    padding-left: 10px;
+    height: 200px;
+    padding-top: 10px;
+}
+.textarea textarea::placeholder{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #666;
+    font-weight: 400;
+}
+.btn{
+    padding-top: 20px;
+    text-align: center;
+}
+.btn button{
+    font-size: 10px;
+    text-transform: uppercase;
+    padding: 10px 25px;
+    background-color: rgb(203, 25, 25);
+    color: rgb(202, 202, 216);
+    font-family: 'Montserrat', sans-serif;
+    border: 0;
+}
+/*====copyright=====*/
+.copyright p{
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    color: #666;
+    line-height: 50px;
+    text-align: center;
+}
+.copyright p span{
+    color: rgb(249, 91, 12);
+}
+/* ==== back to top icon ===*/
+.back-to-top{
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    z-index: 999;
+}
+.back-to-top i{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(246,123,21);
+    color: #ffff;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+}
